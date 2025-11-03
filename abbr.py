@@ -1,10 +1,7 @@
-times = int(input())
-
-if times < 100:
-    for i in range(times):
-        word = input()
-        letterCount = len(word)
-        if letterCount > 10:
-            print(word[0], letterCount - 2, word[-1], sep='')
-        else:
-            print(word)
+n = int(input())
+for _ in range(n):
+    w = input().strip()
+    if len(w) > 10:
+        print(w[0] + str(len(w) - 2) + w[-1])
+    else:
+        print(w)
