@@ -2,9 +2,9 @@ n = int (input())
 
 x = 0
 for _ in range(n):
-    take = str(input())
+    take = input().strip()
 
-if "++" in take:
+if '++' in take:
     x+=1
 else:
     x-+1
