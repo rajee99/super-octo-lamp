@@ -8,3 +8,4 @@ for score in scores:
         count+=1
 
 print(count)
+4
