@@ -8,3 +8,5 @@ dommino = 2
 result =  squers//2
 
 print(result)
+
+print("hello")
