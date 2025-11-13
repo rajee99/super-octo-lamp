@@ -8,3 +8,4 @@ if rem !=0:
     steps+=1
 
 print(steps)
+
